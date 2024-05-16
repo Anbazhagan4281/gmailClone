@@ -1,7 +1,7 @@
 import { IconRefresh , IconDotsVertical, IconChevronLeft, IconChevronRight} from "@tabler/icons-react";
 import MessageItem from "./MessageItem";
 import { formatDate } from "../../utils/utils";
-import Compose from "./Compose";
+import Compose from "../Compose/Compose";
 const messages = [
   { sender: "John Doe", subject: "Meeting Tomorrow", body: "Hi team,\n\nJust a reminder that we have a meeting scheduled for tomorrow at 10:00 AM. Please make sure to prepare any necessary materials beforehand.\n\nBest regards,\nJohn", createdAt: new Date().toISOString() },
   { sender: "Jane Smith", subject: "Project Update", body: "Hello,\n\nI wanted to provide you with an update on the progress of the project. We've completed the initial phase and are moving on to the next stage. I'll keep you updated on any further developments.\n\nRegards,\nJane", createdAt: new Date().toISOString() },
